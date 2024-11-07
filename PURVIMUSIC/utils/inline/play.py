@@ -33,25 +33,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "4ՏTOᑭ—————————"
+        bar = "ᴜᴍᴍ—————————"
     elif 10 < umm < 20:
-        bar = "—4ՏTOᑭ————————"
+        bar = "—ᴜᴍᴍ————————"
     elif 20 <= umm < 30:
-        bar = "——4ՏTOᑭ———————"
+        bar = "——ᴜᴍᴍ———————"
     elif 30 <= umm < 40:
-        bar = "———4ՏTOᑭ——————"
+        bar = "———ᴜᴍᴍ——————"
     elif 40 <= umm < 50:
-        bar = "————4ՏTOᑭ—————"
+        bar = "————ᴜᴍᴍ—————"
     elif 50 <= umm < 60:
-        bar = "—————4ՏTOᑭ————"
+        bar = "—————ᴜᴍᴍ————"
     elif 60 <= umm < 70:
-        bar = "——————4ՏTOᑭ———"
+        bar = "——————ᴜᴍᴍ———"
     elif 70 <= umm < 80:
-        bar = "———————4ՏTOᑭ——"
+        bar = "———————ᴜᴍᴍ——"
     elif 80 <= umm < 95:
-        bar = "————————4ՏTOᑭ—"
+        bar = "————————ᴜᴍᴍ—"
     else:
-        bar = "—————————4ՏTOᑭ"
+        bar = "—————————ᴜᴍᴍ"
     buttons = [
         [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
@@ -68,10 +68,10 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text="𝖮ᴡɴᴇʀ 🥀", url="https://t.me/PROFESSOR_77X",
+                text="𝖮ᴡɴᴇʀ 🥀", url="https://t.me/II_MISS_POISON_QUEEN_143_II",
             ),
             InlineKeyboardButton(
-                text="𝖲ᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/+qYRBJgZsARpkNWJl",
+                text="𝖲ᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/poison_vibes_143",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -90,10 +90,10 @@ def stream_markup(_, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="𝖮𝗐𝗇𝖾𝗋🥀", url="https://t.me/@PROFESSOR_77X",
+                text="𝖮𝗐𝗇𝖾𝗋🥀", url="https://t.me/@II_MISS_POISON_QUEEN_143_II",
             ),
             InlineKeyboardButton(
-                text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍🥀", url="https://t.me/+qYRBJgZsARpkNWJl",
+                text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍🥀", url="https://t.me/poison_vibes_143",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
