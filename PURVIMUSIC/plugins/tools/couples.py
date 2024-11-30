@@ -14,8 +14,8 @@ from PURVIMUSIC.mongo.couples_db import _get_image, get_couple
 POLICE = [
     [
         InlineKeyboardButton(
-            text="||𖹭-『⚚ Ꮅ Ꮻ ΐ Ꭶ Ꮻ Ꮑ 🐉 Ⴍυᥱ֟፝ᥱи⚚』-𖹭||",
-            url=f"https://t.me/II_MISS_POISON_QUEEN_143_II",
+            text="𓂃࣪• ֶָ 𝐏 𝐑 𝐎 𝐅 𝐄 𝐒 𝐒 𝐎 𝐑 🥀",
+            url=f"https://t.me/PROFESSOR_UPDATES",
         ),
     ],
 ]
