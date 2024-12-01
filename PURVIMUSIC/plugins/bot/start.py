@@ -26,21 +26,7 @@ from PURVIMUSIC.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
-   # Typing effect part
-    typing_message = await message.reply("<b>❤️‍🔥</b>")  # Initial message
-    
-    # Simulate typing
-    typing_text = "<b>𝐏ʀᴏғᴇssᴏʀ 𝐎ᴘ❤️‍🔥</b>"
-    
-    for i in range(1, len(typing_text) + 1):  # Loop through each character
-        try:
-            await typing_message.edit_text(typing_text[:i])
-            await asyncio.sleep(0.001)  # Add delay to simulate typing
-        except Exception as e:
-            print(f"Error while editing message: {e}")  # Print error if occurs
-
-    await asyncio.sleep(2)  # Keep message for a while
-    await typing_message.delete()  # Delete the message
+#--------------------------
 
 NEXI_VID = [
 "https://telegra.ph/file/1a3c152717eb9d2e94dc2.mp4",
@@ -124,7 +110,7 @@ async def start_pm(client, message: Message, _):
             return await app.send_message(
                 chat_id=config.LOGGER_ID,
                 text=f"{message.from_user.mention} ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ.\n\n<b>ᴜsᴇʀ ɪᴅ :</b> <code>{message.from_user.id}</code>\n<b>ᴜsᴇʀɴᴀᴍᴇ :</b> @{message.from_user.username}",
-            )
+            ) me 
 
 
 @app.on_message(filters.command(["start"]) & filters.group & ~BANNED_USERS)
